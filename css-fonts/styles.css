@@ -1,0 +1,11 @@
+h1 {
+  font-family: 'Oswald';
+}
+
+h2, p {
+  font-family: 'Playfair Display';
+}
+
+body {
+  line-height: 30px;
+}
