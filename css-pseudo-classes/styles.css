@@ -1,0 +1,13 @@
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+td.row:nth-child(n) {
+  background-color: lightgray;
+}
+
+th:nth-child(n) {
+  background-color: black;
+  color: white;
+}
