@@ -6,11 +6,12 @@ body {
 
 select {
   display: inline-block;
-  width: 320px;
+  height: 30px;
+  width: 324px;
   font-size: 10px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding: 8px;
   background-color: lightgray;
+  border-radius: 5px;
 }
 
 button {
@@ -32,6 +33,7 @@ h4 {
 }
 
 input {
+  height: 30px;
   margin-bottom: 5px;
   padding: 8px;
   border-radius: 5px;
