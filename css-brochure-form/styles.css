@@ -6,7 +6,7 @@ body {
 
 select {
   display: inline-block;
-  width: 315px;
+  width: 320px;
   font-size: 10px;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -32,7 +32,10 @@ h4 {
 }
 
 input {
-  padding: 1px;
+  margin-bottom: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border-width: 0.5px;
 }
 
 .text-email {
