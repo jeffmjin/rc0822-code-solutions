@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column-one-third {
+  width: 20%;
+}
+
+.column-two-thirds {
+  width: 35%;
+}
+
+.column-one-fourth {
+  width: 15%;
+}
