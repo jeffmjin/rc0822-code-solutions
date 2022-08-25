@@ -1,0 +1,78 @@
+body {
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+}
+
+select {
+  display: inline-block;
+  width: 315px;
+  font-size: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: lightgray;
+}
+
+button {
+  display: inline-block;
+  font-family: "Source San Pro", sans-serif;
+  margin-left: 250px;
+  margin-top: 8px;
+  color: white;
+  border: none;
+  background-color: rgb(244 112 102);
+  border-radius: 14px;
+  padding: 5px 12px;
+  font-size: 10px;
+}
+
+h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgb(240 87 49);
+}
+
+input {
+  padding: 1px;
+}
+
+.text-email {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  margin-right: 235px;
+  margin-top: 3px;
+  margin-bottom: 1px;
+}
+
+.text-name {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  margin-right: 280px;
+  margin-top: 8px;
+  margin-bottom: 1px;
+}
+
+.text-hiring {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  margin-right: 200px;
+  margin-top: 8px;
+  margin-bottom: 1px;
+}
+
+.text-select {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  margin-right: 35px;
+  margin-top: 8px;
+  margin-bottom: 1px;
+}
+
+/* .submit {
+  display: inline-block;
+
+}
+*/
