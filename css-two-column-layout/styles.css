@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  color: gray;
+}
+
+.container {
+  font-family: Karla, sans-serif;
+  max-width: 800%;
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-spacing: 30px;
+}
+
+.column {
+  margin-left: 10px;
+}
+
+.column-text {
+  margin-right: 5px;
+}
+
+.learn {
+  border: 3px solid rgb(247 93 91);
+  color: rgb(247 93 91);
+  background-color: white;
+  padding: 10px 50px;
+  font-weight: bold;
+}
