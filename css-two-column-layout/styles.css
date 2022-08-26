@@ -16,8 +16,7 @@ p {
 
 .container {
   font-family: Karla, sans-serif;
-  max-width: 800%;
-  width: 850px;
+  width: 700px;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
@@ -31,12 +30,21 @@ p {
   border-spacing: 30px;
 }
 
+.column-half {
+  display: flex;
+  width: 50%;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
 .column {
-  margin-left: 10px;
+  flex-wrap: wrap;
+  width: 150px;
 }
 
 .column-text {
-  margin-right: 5px;
+  flex-wrap: wrap;
+  width: 250px;
 }
 
 .learn {
