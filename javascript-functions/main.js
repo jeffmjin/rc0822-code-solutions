@@ -26,8 +26,9 @@ function getFirstName({ firstName, lastName }) {
 var getFirstNameResult = getFirstName({ firstName: 'Lelouche', lastName: 'Lamperouge' });
 console.log('getFirstNameResult:', getFirstNameResult);
 
-function getLastElement([x, y, s, t]) {
-  var lastElement = '"' + [t] + '"';
+function getLastElement(array) {
+  var lastIndex = array.length - 1;
+  var lastElement = array[lastIndex];
   return lastElement;
 }
 var getLastElementResult = getLastElement(['propane', 'and', 'propane', 'accessories']);
