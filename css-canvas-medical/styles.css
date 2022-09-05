@@ -121,7 +121,6 @@ footer {
 
 .article-body {
   background-color: rgb(244 245 245);
-  position: relative;
   width: 60rem;
   height: 23rem;
   padding: 20px;
@@ -137,17 +136,21 @@ footer {
 }
 
 .column-one-third-body {
-  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 300px;
   color: gray;
-  left: 160px;
-  bottom: 70px;
 }
 
 .column-one-third-bodytwo {
-  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin-left: 550px;
+  margin-top: -155px;
   color: gray;
-  right: 150px;
-  bottom: 75px;
 }
 
 .p-mainbody-text {
@@ -158,34 +161,39 @@ footer {
 }
 
 .column-one-fourth {
+  display: flex;
+  flex-wrap: wrap;
   font-family: "Tiempo Headline", sans-serif;
   width: 35%;
+  margin-right: 150px;
 }
 
 .article-bottom {
-  display: flex;
-  justify-content: center;
-  position: relative;
   width: 60rem;
   height: 8rem;
 }
 
 .bottom-text {
-  flex-wrap: wrap;
-  position: absolute;
   color: rgb(71 71 71);
   font-size: 25px;
   width: 300px;
-  left: 75px;
+  padding-left: 50px;
+  margin-top: 30px;
 }
 
 .p-bottom-text {
-  position: absolute;
-  width: 300px;
+  width: 250px;
   font-size: 13px;
   color: gray;
-  top: 60px;
-  left: 75px;
+  padding-left: 50px;
+  margin-top: -10px;
+}
+
+.div-bottom-button {
+  display: flex;
+  justify-content: end;
+  margin-top: -70px;
+  margin-right: 100px;
 }
 
 .bottom-button {
@@ -196,14 +204,11 @@ footer {
   color: white;
   background-color: rgb(18 58 111);
   height: 40px;
-  margin-top: 40px;
-  margin-left: 300px;
 }
 
 .article-info {
   font-family: "Tiempo Headline", sans-serif;
   display: flex;
-  position: relative;
   background-color: gray;
   width: 60rem;
   height: 20rem;
@@ -217,19 +222,18 @@ footer {
 }
 
 .column-one-fifth-info {
-  position: absolute;
-  right: 380px;
-  top: 90px;
+  flex-wrap: wrap;
   color: white;
   font-size: 15px;
+  padding: 70px 80px;
+  margin-left: 100px;
 }
 
 .column-one-fifth-infotwo {
-  position: absolute;
-  right: 150px;
-  top: 90px;
+  flex-wrap: wrap;
   color: white;
   font-size: 15px;
+  padding: 70px;
 }
 
 .logo-white {
