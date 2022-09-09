@@ -10,4 +10,6 @@ function handleWindow(event) {
 window.addEventListener('beforeunload', handleWindow);
 
 var previousTodosJSON = localStorage.getItem('javascript-local-storage');
-todos = JSON.parse(previousTodosJSON);
+if (previousTodosJSON !== null) {
+  todos = JSON.parse(previousTodosJSON);
+}
