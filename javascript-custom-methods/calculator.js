@@ -24,11 +24,9 @@ var calculator = {
   },
   getAverage: function (numbers) {
     var average = 0;
-    var number = 0;
     for (var i = 0; i < numbers.length; i++) {
-      number++;
       average += numbers[i];
     }
-    return average / number;
+    return average / numbers.length;
   }
 };
